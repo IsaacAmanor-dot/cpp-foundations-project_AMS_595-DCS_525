@@ -1,79 +1,83 @@
 # C++ Basic Syntax Project  
 AMS 595 / DCS 525 — Project 1  
 
+![Language](https://img.shields.io/badge/language-C++-blue.svg)
+![Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
+![License](https://img.shields.io/badge/license-None-lightgrey.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-informational.svg)
+![Repo Size](https://img.shields.io/github/repo-size/yourusername/cpp-basic-syntax-project1)
+
+---
+
 ## Overview
 This project implements several foundational C++ programming concepts, focusing on conditionals, loops, functions, vectors, and recursive structures.  
 Each task corresponds to a different core feature of the language, forming a complete introduction to basic C++ syntax and logic.
 
 The project consists of five primary components:
-1. **Conditional branching** using `switch` statements.  
-2. **Vector processing** through a custom print function.  
-3. **Iterative sequence generation** using `while` loops.  
-4. **Mathematical utilities** including primality checks, factorization, and prime factorization.  
-5. **Recursive/iterative construction** of Pascal’s Triangle without combinatorial formulas.
+1. **Conditional branching** using `switch` statements  
+2. **Vector processing** through a custom print function  
+3. **Iterative sequence generation** using `while` loops  
+4. **Mathematical utilities** including primality checks and factorization  
+5. **Recursive/iterative construction** of Pascal’s Triangle  
 
 ---
 
 ## Tasks
 
 ### 🔹 Task 1: Conditional Statements (Switch-Case)
-- Prompts the user for an integer.  
-- Uses a `switch` statement to print:  
+- Prompts the user for an integer  
+- Uses a `switch` statement to print:
   - `"negative one"` for −1  
   - `"zero"` for 0  
   - `"positive one"` for 1  
   - `"other value"` for all other inputs  
-- Demonstrates branching control flow in C++.
+- Demonstrates branching control flow in C++
 
 ---
 
 ### 🔹 Task 2: Printing a Vector
-- Implements a custom function  
-  `print_vector(std::vector<int> v)`  
-  to output vector contents since C++ has no built-in print utility.  
-- Prints all elements separated by spaces followed by a newline.  
-- Reinforces iteration and vector indexing.
+- Implements a custom vector-printing function  
+- Outputs elements separated by spaces  
+- Reinforces iteration and vector indexing  
 
 ---
 
 ### 🔹 Task 3: Fibonacci Sequence (While Loop)
-- Generates Fibonacci numbers starting with **1** and **2**.  
-- Continues until the next term exceeds **4,000,000**.  
-- Prints the entire sequence in order.  
-- Highlights iterative computation and loop control.
+- Generates Fibonacci numbers starting with **1** and **2**  
+- Stops when exceeding **4,000,000**  
+- Prints the full sequence  
+- Demonstrates iterative computation  
 
 ---
 
 ### 🔹 Task 4: Mathematical Functions
+
 #### **Task 4.1 — Prime Testing (`isprime`)**
-- Determines whether a number is prime.  
-- Uses optimized checking up to √n.  
-- Tested on inputs: 2, 10, 17.
+- Determines whether an integer is prime  
+- Uses optimized trial division up to √n  
+- Tested on: 2, 10, 17  
 
 #### **Task 4.2 — Factorization**
-- Computes all positive divisors of an integer `n`.  
-- Returns them in a vector.  
-- Tested on: 2, 72, 196.
+- Computes all positive factors of `n`  
+- Tested on: 2, 72, 196  
 
 #### **Task 4.3 — Prime Factorization**
-- Extracts the prime factorization of `n`.  
-- Removes all factors of 2, then odd factors up to √n.  
-- Appends any remaining prime.  
-- Tested on: 2, 72, 196.
+- Produces the prime factorization of `n`  
+- Removes powers of 2, then odd divisors  
+- Tested on: 2, 72, 196  
 
 ---
 
-### 🔹 Task 5: Pascal’s Triangle (Iterative Construction)
-- Prints the first **n rows** of Pascal’s Triangle.  
-- Builds each row from the previous row using element-wise sums.  
-- Does **not** use combinatorics formulas (as required).  
-- Demonstrates recursive structure implemented iteratively.
+### 🔹 Task 5: Pascal’s Triangle
+- Prints the first **n rows** of Pascal’s Triangle  
+- Builds each row from the previous one  
+- Uses iterative row construction without combinatorial formulas  
 
 ---
 
 ## 📊 Results
 
-The following output was generated when running the program with the input **1** for Task 1:
+The following output was generated using input **1** for Task 1:
 
 ```text
 C:\cpp>project1
