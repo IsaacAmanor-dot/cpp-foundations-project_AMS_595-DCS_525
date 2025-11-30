@@ -54,7 +54,7 @@ The project consists of five primary components:
 
 #### **Task 4.1 — Prime Testing (`isprime`)**
 - Determines whether an integer is prime  
-- Uses optimized trial division up to √n  
+- Uses optimized trial division up to $\sqrt(n)$ 
 - Tested on: 2, 10, 17  
 
 #### **Task 4.2 — Factorization**
