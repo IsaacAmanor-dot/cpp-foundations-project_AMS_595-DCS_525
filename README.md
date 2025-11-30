@@ -124,7 +124,6 @@ After entering a value (e.g., 1), the program automatically proceeds to execute:
 - Task 4.2 (factorization)  
 - Task 4.3 (prime factorization)  
 - Task 5 (Pascal’s Triangle)  
-
 No further input is required.
 ---
 
