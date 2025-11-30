@@ -51,16 +51,16 @@ The project consists of five primary components:
 
 ### 🔹 Task 4: Mathematical Functions
 
-#### **Task 4.1 — Prime Testing (`isprime`)**
+#### **Task 4.1: Prime Testing (`isprime`)**
 - Determines whether an integer is prime  
 - Uses optimized trial division up to √n  
 - Tested on: 2, 10, 17  
 
-#### **Task 4.2 — Factorization**
+#### **Task 4.2 : Factorization**
 - Computes all positive factors of `n`  
 - Tested on: 2, 72, 196  
 
-#### **Task 4.3 — Prime Factorization**
+#### **Task 4.3: Prime Factorization**
 - Produces the prime factorization of `n`  
 - Removes powers of 2, then odd divisors  
 - Tested on: 2, 72, 196  
