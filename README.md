@@ -128,7 +128,7 @@ No further input is required.
 
 ## 📊 Results
 
-The following output was generated using input **1** for Task 1:
+The following output was generated using input **1** from Task 1 to 5:
 
 ```text
 C:\cpp>project1
