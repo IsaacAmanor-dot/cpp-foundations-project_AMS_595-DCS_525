@@ -74,6 +74,38 @@ The project consists of five primary components:
 - Uses iterative row construction without combinatorial formulas  
 
 ---
+## 🔧 How to Compile and Run the Code ### 1️⃣ Compile Using **g++** (recommended):
+bash
+g++ project1.cpp -o project1
+Using C++11 explicitly:
+g++ project1.cpp -std=c++11 -o project1
+On Windows (MinGW):
+
+g++ project1.cpp -o project1.exe
+2️⃣ Run the Executable
+project1.exe
+macOS / Linux:
+./project1
+3️⃣ Program Execution Flow
+When you run the program, it will display:
+Enter a number:
+After entering a value (e.g., 1), the program automatically proceeds to execute:
+
+Task 1 (switch-case output)
+
+Task 3 (Fibonacci sequence)
+
+Task 4.1 (prime testing)
+
+Task 4.2 (factorization)
+
+Task 4.3 (prime factorization)
+
+Task 5 (Pascal’s Triangle)
+
+No further input is required
+
+I want the whole of this as code
 
 ## 📊 Results
 
