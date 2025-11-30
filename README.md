@@ -10,8 +10,7 @@ AMS 595 / DCS 525 : C++ Project 1
 ---
 
 ## Overview
-This project implements several foundational C++ programming concepts, focusing on conditionals, loops, functions, vectors, and recursive structures.  
-Each task corresponds to a different core feature of the language, forming a complete introduction to basic C++ syntax and logic.
+This project implements several foundational C++ programming concepts, focusing on conditionals, loops, functions, vectors, and recursive structures.  Each task corresponds to a different core feature of the language, forming a complete introduction to basic C++ syntax and logic.
 
 The project consists of five primary components:
 1. **Conditional branching** using `switch` statements  
