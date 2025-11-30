@@ -1,5 +1,5 @@
 # C++ Basic Syntax Project  
-AMS 595 / DCS 525 — Project 1  
+AMS 595 / DCS 525 : C++ Project 1  
 
 ![Language](https://img.shields.io/badge/language-C++-blue.svg)
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
